@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Game of Life</title>
+    <meta charset="utf-8" />
+    <link href="styles/Index.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="controllers">
+            <h2>Game of Life</h2>
+            <ul>
+             
+                <li><label>Chose pattern</label></li>
+                <li class="dblController">
+                    <button class="btnPattern" id="btnRandom">Random</button>
+                    <input id="amountOfCells" type="text" placeholder="Amount?" autofocus="" />
+                </li>
+                <li><button class="btnPattern" id="btnGunner">Gunner</button></li>
+                <li><button class="btnPattern" id="btnPulsars">Pulsars</button></li>
+                <li><label>Change speed</label></li>
+                <li class="dblBtn">
+                    <button id="btnFaster">Faster</button>
+                    <button id="btnSlower">Slower</button>
+                </li>
+            </ul>
+        </div>
+        <canvas id="board" width="1000" height="1000"></canvas>
+
+        <script src="scripts/GOL.js"></script>
+    </div>
+</body>
+</html>

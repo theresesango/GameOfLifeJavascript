@@ -1,0 +1,113 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 30px;
+}
+
+body {
+    background-color: #1b1b1b;
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+}
+
+.wrapper {
+    width: 1800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#board {
+    box-shadow: 0 0 30px #000000;
+    border-radius: 20px;
+    border: 1px solid #414141;
+    display: inline-block;
+}
+
+.controllers {
+    display: inline-block;
+    height: 1000px;
+    vertical-align: top;
+}
+
+    .controllers h2 {
+        position: absolute;
+        font-size: 60px;
+        text-shadow: 7px 7px 1px black;
+    }
+
+    .controllers ul {
+        list-style: none;
+        padding-top: 400px;
+    }
+
+        .controllers ul li {
+            padding: 10px 20px;
+        }
+
+        .controllers ul .dblBtn button {
+            width: 149px;
+        }
+
+            .controllers ul .dblBtn button:nth-child(1) {
+                border-radius: 5px 0 0 5px;
+            }
+
+            .controllers ul .dblBtn button:nth-child(2) {
+                border-radius: 0 5px 5px 0;
+            }
+
+        .controllers ul .dblController button, .controllers ul .dblController input {
+            width: 149px;
+        }
+
+        .controllers ul .dblController button {
+            border-radius: 5px 0 0 5px;
+        }
+
+        .controllers ul .dblController input {
+            border-radius: 0 5px 5px 0;
+        }
+
+button {
+    width: 300px;
+    height: 75px;
+    background-color: #F35F55;
+    color: #fff;
+    border: 1px solid #d27069;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000000;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px #cd271d;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #e7483d;
+}
+
+button:active {
+    background-color: #d27069;
+}
+
+input {
+    width: 300px;
+    height: 75px;
+    background-color: #fff;
+    color: #F35F55;
+    border: 1px solid #d27069;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000000;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px #cd271d;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+
